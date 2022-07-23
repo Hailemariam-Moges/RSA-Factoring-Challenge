@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
- * trial_division - Finds the smallest divisor, if any, of a given number `n`
- * Return: 1 smallest divisor if found
- * Return: 0 if n is prime
- * n - Type integer
+ * trial_division - Trial dividing
+ * Return: 1 smallest divisor if found, if n is prime
+ * @n: - integer numbers
  */
+
 
 
 int trial_division(long int n)
